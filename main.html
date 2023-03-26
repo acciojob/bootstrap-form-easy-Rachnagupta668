@@ -4,10 +4,65 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+<form class="row g-3 needs-validation" novalidate>
+	
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+  
+        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+   
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+     <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+  
+  </div>
+ <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">College </label>
+     <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+  
+  </div>
+	 <div class="col-auto">
+    <label class="visually-hidden" for="autoSizingSelect">Graduation Year</label>
+    <select class="form-select" id="autoSizingSelect">
+      <option selected>Choose...</option>
+      <option value="1">2020</option>
+      <option value="2">2021</option>
+      <option value="3">2022</option>
+		 <option value="3">2023</option>
+    </select>
+  </div>
+	 <div class="col-md-2">
+    <label for="inputZip" class="form-label">Roll Number</label>
+    <input type="text" class="form-control" id="inputZip">
+	 </div>
+
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+     
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>	
+
     <script type="text/javascript" src="./script.js">
 </script>
 
